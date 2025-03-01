@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order</title>
+    <link rel="stylesheet" href="css/order.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Food Order Online</h1>
+        <p>Choose your favorite items and place your order</p>
+    </div>
+
+    <div class="container">
+        <h2>Menu</h2>
+
+        <div class="menu-item">
+            <div>
+                <span>Pizza</span><br>
+                <span class="price">$5</span>
+            </div>
+            <input type="number" id="pizza-qty" value="0" min="0" />
+        </div>
+
+        <div class="menu-item">
+            <div>
+                <span>Momos</span><br>
+                <span class="price">$4</span>
+            </div>
+            <input type="number" id="Momos-qty" value="0" min="0" />
+        </div>
+
+        <div class="menu-item">
+            <div>
+                <span>Fries</span><br>
+                <span class="price">$2</span>
+            </div>
+            <input type="number" id="Fries-qty" value="0" min="0" />
+        </div>
+
+        <div class="menu-item">
+            <div>
+                <span>Burger</span><br>
+                <span class="price">$6</span>
+            </div>
+            <input type="number" id="Burger-qty" value="0" min="0" />
+        </div>
+
+        <div class="menu-item">
+            <div>
+                <span>Fry momos</span><br>
+                <span class="price">$7</span>
+            </div>
+            <input type="number" id="Fry momos-qty" value="0" min="0" />
+        </div>
+
+        <div class="menu-item">
+            <div>
+                <span>Veg Burger</span><br>
+                <span class="price">$4</span>
+            </div>
+            <input type="number" id="Veg Burger-qty" value="0" min="0" />
+        </div>
+
+        <div class="order-form">
+            <button onclick="calculateTotal()"><a href="./Placeorder.html">Place Order</a></button>
+        </div>
+
+        <div class="total" id="total-price">
+            Total: $0.00
+        </div>
+    </div>
+
+    
+</body>
+</html>

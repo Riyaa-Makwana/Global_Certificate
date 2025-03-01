@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="navbar">
+        <div class="container">
+          <div class="logo">
+            <img src="images/logo.png" alt="Restaurant Logo" width="100%" class="img-responsive">
+          </div>
+
+          <div class="menu text-right">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                
+                <li>
+                    <a href="./login.html">Login</a>
+                </li>
+                
+                <li>
+                    <a href="./order.html">Order</a>
+                </li>
+                
+                <li>
+                    <a href="./Contact.html">Contact</a>
+                </li>
+            </ul>
+          </div>
+
+          <div class="clearfix"></div>
+         </div>
+    </section>
+    
+        <section class="food-search text-center">
+            <div class="container">
+                <form action="">
+                    <input type="search" name="search" placeholder="Search Your Food..">
+                    <input type="submit" name="submit" value="Search" class="btn btn-primary">
+                </form>
+            </div>
+        </section>
+    
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore Your Foods</h2>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="images/burger1.jpg" alt="Burger" class="img-responsive img-curve">
+                <h3 class="float-text text-white">Burger</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="images/pizz.avif" alt="Pizza" class="img-responsive img-curve">
+                <h3 class="float-text text-white">Pizza</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="images/momo.jpg" alt="Momos" class="img-responsive img-curve">
+                <h3 class="float-text text-white">Momos</h3>
+            </div>
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-pizza.jpg" alt="Good Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Pizza</h4>
+                    <p class="food-price">$5</p>
+                    <p class="food-detail">
+                       Made with Good Ingredient.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-momo.jpg" alt="Good Momo" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Momos</h4>
+                    <p class="food-price">$4</p>
+                    <p class="food-detail">
+                       Made with Good Ingredient.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    
+    <section class="order-details">
+        <div class="container">
+            <h2 class="text-center">Place Your Order</h2>
+
+            <form action="#" method="post">
+                
+                <div class="form-group">
+                    <label for="address">Delivery Address</label><br>
+                    <input type="text" id="address" name="address" placeholder="Enter your delivery address" class="form-control" required>
+                </div>
+
+                
+                <div class="form-group">
+                    <label for="location">Live Location</label><br>
+                    <input type="text" id="location" name="location" placeholder="Share your live location (optional)" class="form-control">
+                </div>
+
+                
+                <h3>Choose Payment Method</h3>
+                <div class="form-group">
+                    <label><input type="radio" name="payment_method" value="credit_card"> Credit Card</label><br><br>
+                    <label><input type="radio" name="payment_method" value="debit_card"> Debit Card</label><br><br>
+                    <label><input type="radio" name="payment_method" value="gpay"> Google Pay (GPay)</label><br><br>
+                    <label><input type="radio" name="payment_method" value="upi"> UPI</label><br><br>
+                    <label><input type="radio" name="payment_method" value="cash_on_delivery"> Cash on Delivery</label>
+                </div>
+
+                
+            </form>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="container text-center">
+            <p>&copy; 2025 Fast Food | All Rights Reserved</p>
+        </div>
+    </section>
+   
+</body>
+</html>
